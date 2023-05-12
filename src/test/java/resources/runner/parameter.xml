@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1">
+    <test name="Login Test">
+        <parameter name="processor" value="2.2 GHz Intel Pentium Dual-Core E2200"></parameter>
+        <parameter name="ram" value="2 GB "></parameter>
+        <parameter name="hdd" value="320 GB "></parameter>
+        <parameter name="os" value="Vista Home [+$50.00]   "></parameter>
+        <parameter name="software" value="Microsoft Office [+$50.00] "></parameter>
+        <classes>
+            <class name="com.nopcommerce.demo.testsuite.ComputerPageTest"></class>
+        </classes>
+    </test>
+</suite>
